@@ -1,4 +1,2 @@
-cv2
-mediapipe
-tempfile
-streamlit
+opencv-python-headless
+numpy

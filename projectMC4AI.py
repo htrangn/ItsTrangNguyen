@@ -6,10 +6,10 @@ from PIL import Image
 
 import base64
 
-main_bg = "sample.jpg"
+main_bg = "logo.jpg"
 main_bg_ext = "jpg"
 
-side_bg = "sample.jpg"
+side_bg = "logo.jpg"
 side_bg_ext = "jpg"
 
 st.markdown(

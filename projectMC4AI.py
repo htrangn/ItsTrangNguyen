@@ -7,6 +7,7 @@ from PIL import Image
 filename = 'haarcascade_frontalface_default.xml'
 face_cascade = cv2.CascadeClassifier(filename)
 
+st.snow()
 @st.cache
 def load_image(img):
     im = Image.open(img)
@@ -55,4 +56,3 @@ def main():
         st.write("Special thanks to JCharisTech, 1littlecoder, NeuralNine and Adarsh Menon for your useful videos on Youtube")
 
 main()
-    st.snow()

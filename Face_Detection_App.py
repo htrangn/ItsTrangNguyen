@@ -29,7 +29,7 @@ def main():
     with st.sidebar:
         activities = ["Detection", "About"]
         choice = st.sidebar.selectbox("Select Activity", activities)
-        "[View the source code](https://github.com/htrangn/ItsTrangNguyen/edit/main/FaceDetectionApp.py)" 
+        "[View the source code](https://github.com/htrangn/ItsTrangNguyen/blob/main/Face_Detection_App.py)" 
 
     #Detection
     if choice == "Detection":

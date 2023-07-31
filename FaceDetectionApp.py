@@ -36,7 +36,7 @@ def main():
         st.subheader("Face Detection")
 
         #Use Webcam
-        image_file = st.camera_input(label = "Take a pic of you")
+        image_file = st.camera_input(label = "Take a picture of you")
 
         #Upload img
         if image_file is None: image_file = st.file_uploader("Upload Image", type = ['jpg', 'png', 'jpeg'])

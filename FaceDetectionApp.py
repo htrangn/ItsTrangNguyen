@@ -26,8 +26,10 @@ def detect_faces(our_image):
 def main():
     #Face detection App
     st.title("Face Detection App")
-    activities = ["Detection", "About"]
-    choice = st.sidebar.selectbox("Select Activity", activities)
+    with st.sidebar:
+        "[View the source code](https://github.com/htrangn/ItsTrangNguyen/edit/main/FaceDetectionApp.py)" 
+        activities = ["Detection", "About"]
+        choice = st.sidebar.selectbox("Select Activity", activities)
 
     #Detection
     if choice == "Detection":

@@ -25,7 +25,7 @@ def detect_faces(our_image):
 
 def main():
     #Face detection App
-    st.title("Face Detection App")
+    st.title(":construction_worker:Face Detection App")
     with st.sidebar:
         activities = ["Detection", "About"]
         choice = st.sidebar.selectbox("Select Activity", activities)

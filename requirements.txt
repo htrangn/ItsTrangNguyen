@@ -9,4 +9,4 @@ trubrics>=1.4.3
 Pillow
 streamlit
 Keras==2.4.3
-tensorflow==2.13.0
+tensorflow==2.3.0

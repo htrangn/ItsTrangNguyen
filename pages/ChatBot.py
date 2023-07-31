@@ -30,4 +30,7 @@ if choice == "Chat":
         st.session_state.messages.append(msg)
         st.chat_message("assistant").write(msg.content)
 elif choice == "About":
-    
+     st.subheader("About this app")
+     st.write("This app was made by Nguyen H.Trang")
+     st.write("This app requires an OpenAI API key to activate")
+     st.write("This chatbot is designed to deliver a seamless conversational experience with its natural language processing capabilities")

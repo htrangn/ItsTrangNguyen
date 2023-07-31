@@ -6,3 +6,7 @@ langchain>=0.0.217
 duckduckgo-search
 anthropic>=0.3.0
 trubrics>=1.4.3
+Pillow
+streamlit
+Keras==2.4.3
+tensorflow==2.3.1

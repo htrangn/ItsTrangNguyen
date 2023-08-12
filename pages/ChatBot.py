@@ -8,7 +8,7 @@ with st.sidebar:
     choice = st.sidebar.selectbox("Select Activity", activities2)
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-    "[View the source code](https://github.com/htrangn/ItsTrangNguyen/blob/main/pages/ChatBot.py)"
+    st.write("View the source code:   ", "[GITHUB](https://github.com/htrangn/ItsTrangNguyen/edit/main/pages/ChatBot.py)") 
 
 if choice == "Chat":
     st.title("💬 Chatbot")

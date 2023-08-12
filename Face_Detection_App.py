@@ -29,7 +29,7 @@ def main():
     with st.sidebar:
         activities = ["Detection", "About"]
         choice = st.sidebar.selectbox("Select Activity", activities)
-        st.write("Face Detection using ", "[Haar Cascade](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)")
+        st.write("Face Detection using: ", "[Haar Cascade](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)")
         st.write("View the source code:   ", "[GITHUB](https://github.com/htrangn/ItsTrangNguyen/blob/main/Face_Detection_App.py)") 
 
     #Detection

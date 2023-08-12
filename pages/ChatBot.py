@@ -12,7 +12,7 @@ with st.sidebar:
     st.write("View the source code:   ", "[GITHUB](https://github.com/htrangn/ItsTrangNguyen/edit/main/pages/ChatBot.py)") 
 
 if choice == "Chat":
-    st.title("💬 Chatbot")
+    st.title("💬 CHATBOT")
     if "messages" not in st.session_state:
         st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
     

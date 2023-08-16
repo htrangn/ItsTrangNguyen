@@ -1,6 +1,6 @@
 import streamlit
 import requests
-from streamlit-lottie import st_lottie
+from streamlit_lottie import st_lottie
 from types import GeneratorType
 import streamlit as st
 import cv2

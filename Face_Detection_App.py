@@ -26,6 +26,9 @@ def detect_faces(our_image):
 def main():
     #Face detection App
     st.title("FACE DETECTION APP")
+    markdown = """
+    Web App URL: <https://geemap.streamlit.app>
+    """
     with st.sidebar:
         activities = ["Detection", "About"]
         choice = st.sidebar.selectbox("Select Activity", activities)

@@ -43,6 +43,8 @@ def main():
         #Use Webcam
         image_file = st.camera_input(label = "Take a picture of you 📸")
 
+        st.info("This app will determine how many faces are in your picture")
+        
         #Upload img
         if image_file is None: image_file = st.file_uploader("Upload Image 📂", type = ['jpg', 'png', 'jpeg'])
 

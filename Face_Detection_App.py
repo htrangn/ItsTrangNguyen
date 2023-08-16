@@ -34,6 +34,7 @@ def main():
         markdown = """
         Web App URL: <https://geemap.streamlit.app>
         """
+        st.sidebar.info(markdown)
 
     #Detection
     if choice == "Detection":

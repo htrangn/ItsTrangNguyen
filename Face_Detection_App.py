@@ -32,7 +32,7 @@ def main():
         st.write("Face Detection using: ", "[HAAR CASCADE](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)")
         st.write("View the source code:   ", "[GITHUB](https://github.com/htrangn/ItsTrangNguyen/blob/main/Face_Detection_App.py)") 
         markdown = """
-        Web App URL: <https://geemap.streamlit.app>
+        Web App URL: <https://facapp.streamlit.app>
         """
         st.sidebar.info(markdown)
 

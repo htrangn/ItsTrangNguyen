@@ -10,6 +10,10 @@ with st.sidebar:
     "[OpenAI's Platform website](https://platform.openai.com/account/api-keys)"
     "[Instruct to get an OpenAI API key](https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/)"
     st.write("View the source code:   ", "[GITHUB](https://github.com/htrangn/ItsTrangNguyen/edit/main/pages/ChatBot.py)") 
+    markdown = """
+    Web App URL: <https://facapp.streamlit.app>
+    """
+    st.sidebar.info(markdown)
 
 if choice == "Chat":
     st.title("💬 CHATBOT")

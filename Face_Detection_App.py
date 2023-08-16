@@ -1,3 +1,4 @@
+import streamlit
 import requests
 from streamlit_lottie import st_lottie
 from types import GeneratorType

@@ -1,8 +1,7 @@
-import streamlit
+import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 from types import GeneratorType
-import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image

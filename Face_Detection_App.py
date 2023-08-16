@@ -47,7 +47,7 @@ def main():
         if image_file is None: image_file = st.file_uploader("Upload Image 📂", type = ['jpg', 'png', 'jpeg'])
 
         #Face detection
-        if st.button("Process"):
+        if st.button("✨Process✨"):
             if image_file is not None:
                 our_image = Image.open(image_file)
                 result_img, result_faces = detect_faces(our_image)
